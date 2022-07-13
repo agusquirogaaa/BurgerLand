@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+.navbar {
+    height:100px;
+}
+.logo {
+    margin-left:10px;
+}
+
+/*         HAMBURGUESAS     */
+.bgMenu{
+    background-color:rgba(33,37,41,255);
+    padding-bottom:30px;
+}
+.tituloBlanco {
+    background-color: rgba(33,37,41,255);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:50px;
+    font-size:50px;
+    font-family: "Saira Stencil One";
+}
+
+.menu {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    background-color:rgba(33,37,41,255);
+    gap:50px;
+}
+
+.hamburguesa {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height:25rem;
+    width:28rem;
+}
+
+.contenedorTexto {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.tituloHamburguesa {
+    color:yellow;
+    font-size: 25px;
+    text-align:center;
+    font-family: "Allerta Stencil";
+}
+.textoHamburguesa {
+    color:rgba(255, 255, 255, 0.904);
+    font-size:15px;
+    text-align:center;
+    font-family: "Allerta Stencil";
+}
+
+/*      ACOMPAÑAMIENTOS    */
+
+.bgMenu2 {
+    background-color: rgb(202, 202, 125);
+    padding-bottom:70px;
+}
+
+.tituloBlanco2 {
+    background-color: rgb(202, 202, 125);
+    color:dark;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:50px;
+    font-size:50px;
+    font-family: "Saira Stencil One";
+}
+
+.menu2 {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    background-color:transparent;
+    gap:50px;
+}
+
+.acompañamiento {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height:25rem;
+    width:28rem;
+}
+
+.contenedorTexto {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.tituloAcompañamiento {
+    color:dark;
+    font-size:25px;
+    text-align:center;
+    font-family: "Allerta Stencil";
+}
+.textoAcompañamiento {
+    color: whitesmoke;
+    font-size:15px;
+    text-align: center;
+    font-family: "Allerta Stencil";
+}
+.tituloSucursales {
+    color:whitesmoke;
+    font-family: "Saira Stencil One";
+    text-align: center;
+    padding-top:50px;
+    margin-bottom:30px;
+}
+.tituloSucursal {
+    font-family: "Allerta Stencil";
+    color:whitesmoke;
+
+}
+.sucursales {
+    background-color: black;
+}
+
+.containerSucursal {
+    display:flex;
+    justify-content: center;
+    gap:50px;
+}
