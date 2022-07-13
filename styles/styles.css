@@ -127,20 +127,114 @@
     color:whitesmoke;
     font-family: "Saira Stencil One";
     text-align: center;
-    padding-top:50px;
-    margin-bottom:30px;
+    padding-top:30px;
+    margin-bottom:60px;
+}
+.sucursal {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
 }
 .tituloSucursal {
     font-family: "Allerta Stencil";
     color:whitesmoke;
+    padding-bottom:20px;
 
 }
 .sucursales {
-    background-color: black;
+    background-color: rgba(33,37,41,255);
+    padding-bottom:200px;
+    padding-top:30px;
 }
 
 .containerSucursal {
     display:flex;
     justify-content: center;
     gap:50px;
+}
+
+/*      FOOTER     */
+
+.footer {
+    background-color: black;
+    height:200px;
+    padding-top:50px;
+}
+.footer__contenedor {
+    display:flex;
+    justify-content: space-between;
+}
+.navegacion {
+    margin-left:20px;
+    color:white;
+    width:30%;
+    font-family: "Allerta Stencil";
+}
+#barra {
+    display:flex;
+    flex-direction: column;
+    width:50px;
+}
+.barraFooter {
+    text-decoration: none;
+    color:white;
+}
+.barraFooter:hover {
+    color:grey;
+}
+.newsletter {
+    width:auto;
+}
+.newsletter__titulo {
+    font-size:20px;
+    color:white;
+    font-family: "Allerta Stencil";
+}
+
+.newsletter__boton {
+    display:flex;
+    margin-top:20px;
+    gap:10px;
+}
+.contenedorRedes {
+    display:flex;
+    flex-direction:column;
+    gap:70px;
+}
+.contenedor-texto {
+    display:flex;
+    margin-right:30px;
+    gap:30px;
+}
+.contenedor-iconos {
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    width:auto;
+    margin-right:30px;
+    gap:10px;
+}
+.icono-link {
+    text-decoration: none;
+}
+
+.icono-footer {
+    color:white;
+    display: flex;
+    margin-top:5px;
+    
+}
+
+.infoTienda {
+    color:white;
+    font-size:20px;
+    font-family: "Allerta Stencil";
+    text-transform: uppercase;
+}
+.infoTienda2 {
+    color:white;
+    font-size:12px;
+    font-family: "Allerta Stencil";
+    text-transform: uppercase;
 }
